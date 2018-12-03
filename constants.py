@@ -215,9 +215,9 @@ for name in [s for s in list(COLOR_MAP.keys()) if s.endswith("_C")]:
     locals()[name.replace("_C", "")] = locals()[name]
 
 # Streaming related configurations
-IS_LIVE_STREAMING = False
+IS_LIVE_STREAMING = True
 LIVE_STREAM_NAME = "LiveStream"
-IS_STREAMING_TO_TWITCH = True
+IS_STREAMING_TO_TWITCH = False
 TWITCH_STREAM_KEY = "live_280400360_cZ1qn1h20Ws0bnEm1wswqaYEkwfv7I"
 STREAMING_PROTOCOL = "tcp"
 STREAMING_IP = "127.0.0.1"
